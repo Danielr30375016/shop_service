@@ -1,0 +1,490 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background: #f4f4f4;
+}
+
+header{
+    height: 100px;
+}
+
+.container__header{
+    max-width: 2000px;
+    height: 100%;
+}
+
+.container__logo img{
+    width: 100px;
+}
+
+.container__header .container__header_top{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px 40px 0 40px;
+    margin: auto;
+
+}
+
+.container__campo_texto{
+    display: flex;
+    border: 1px solid #121214;
+    padding: 2px;
+    border-radius: 5px;
+}
+
+.container__campo_texto #buscador{
+    width: 700px;
+    height: 50px;
+    padding: 10px;
+    border: none;
+}
+.container__campo_texto #icono_buscar{
+    background: #121214;
+    color: white;
+    padding: 18px;
+    border-radius: 5px;
+}
+
+.container__pedidos a{
+    color: #2c598d;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.container__login a{
+    color: #4273aa;
+    font-size: 22px;
+    justify-content: center;
+}
+
+.containner__carrito{
+    display: flex;
+}
+
+.containner__carrito i{
+    color: #4273aa;
+    padding-right: 7px;
+}
+
+.container__header_bottom{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+}
+
+.container__header_bottom .container__icon{
+    color: #4273aa;
+    font-weight: bold;
+}
+
+.container__nav{
+    display: flex;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.container__movilidad,
+.container__cuidado,
+.container__profesionales,
+.container__tapabocas{
+    padding-top: 0px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.container__movilidad i,
+.container__profesionales i,
+.container__tapabocas i,
+.container__cuidado i{
+    color: #4273aa;
+}
+
+
+.container__movilidad a{
+    padding-left: 15px;
+    color: #1b57a0;
+}
+
+.container__profesionales a,
+.container__tapabocas a,
+.container__cuidado a{
+    color: #252323;
+    text-decoration: none;
+    padding-left: 10px;
+    font-size: 15px;
+}
+
+.container__fondo{
+    padding-top: 100px;
+}
+
+.container__imagen_{
+    position: absolute;
+}
+
+.container__fondo img{
+    width: 100%;
+}
+
+.container__texto{
+    padding: 200px;
+    position: relative;
+}
+
+.container__texto h2{
+    width: 50%;
+    font-size: 70px;
+    color: #c5cf2f;
+}
+
+.container__texto h3{
+    width: 50%;
+    font-size: 70px;
+    color: white;
+}
+
+.container__texto #productos{
+    color: white;
+    background-color: #1b57a0;
+    padding: 20px 40px 20px 40px;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+main{
+    padding-top: 1050px;
+}
+
+.container__scroll{
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    
+}
+
+.container__scroll_img{
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.container__scroll_img img{
+    height: 220px;
+}
+
+.container__scroll_img a{
+    color: #121214;
+    text-decoration: none;
+    padding-left: 60px;
+    align-items: center;
+
+}
+
+.container__scroll_img:hover{
+    transform: scale(1.2);
+    transition: 300ms;   
+}
+
+container__scroll:hover a{
+    color: #1b57a0;
+    
+}
+
+.container__nueva_coleccion{
+    padding: 0px 100px 100px 100px;
+    margin-bottom: 100px;
+
+}
+
+.container__titulo{
+    display: flex;
+    justify-content: center;
+}
+
+.container__titulo h3{
+    font-size: 18px;
+    font-weight: bold;
+    color: #1b57a0;
+    padding: 20px;
+}
+
+.container__coleccion{
+    display: flex;
+    justify-content: center;
+}
+
+.container__coleccion_img img{
+    width: 260px;
+}
+
+.container__coleccion_img:hover{
+    transform: scale(1.1);
+    transition: 300ms;
+}
+
+.container__coleccion_img p{
+    font-size: small;
+}
+
+.container__coleccion_img .boton{
+    display: none;
+}
+
+.container__coleccion_img:hover p{
+    color: #1b57a0;
+    transition: 300ms;
+}
+
+.container__coleccion_img:hover .boton{
+    display: flex;
+    width: max-content;
+    justify-content: center;
+    color: white;
+    background: #1b57a0;
+    font-size: 10px;
+    padding-left: 90px;
+    padding-right: 85px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    transition: 1200ms;
+}
+
+.container_sobre_nosotros{
+    width: 1200px;
+    height: 500px;
+    padding-top: 10px;
+    margin: 0 auto;
+    justify-content: stretch;
+    display: grid;
+    grid-template-areas: 'nosotros nosotros tienda gente'
+                         'usuarios servicios servicios gente';
+}
+
+.container__informacion_1{
+    width: 600px;
+    height: 100px;
+    grid-area: nosotros;
+
+}
+
+.container__informacion_2{
+    width: 300px;
+    height: 120px;
+    grid-area: tienda;
+}
+
+.container__informacion_3{
+    width: 300px;
+    height: 100px;
+    grid-area: usuarios;
+}
+
+.container__informacion_4{
+    width: 600px;
+    height: 50px;
+    grid-area: servicios;
+}
+
+.container__informacion_5{
+    width: 300px;
+    height: 300px;
+    grid-area: gente;
+}
+
+.container__informacion_1 img{
+    width: 600px;
+    height: 300px;
+}
+.container__informacion_3 img{
+    width: 300px;
+    height: 200px;
+}
+
+.container__informacion_2 img{
+    width: 300px;
+    height: 300px;
+}
+
+.container__informacion_4 img{
+    width: 600px;
+    height: 200px;
+}
+
+.container__informacion_5 img{
+    height: 460px;
+}
+
+.container__informacion_1 p,
+.container__informacion_2 p,
+.container__informacion_3 p,
+.container__informacion_4 p,
+.container__informacion_5 p,
+.container__informacion_1 .boton,
+.container__informacion_2 .boton,
+.container__informacion_3 .boton,
+.container__informacion_4 .boton,
+.container__informacion_5 .boton{
+    display: none;
+}
+
+.container__informacion_1 #img1,
+.container__informacion_2 #img2,
+.container__informacion_3 #img3,
+.container__informacion_4 #img4,
+.container__informacion_5 #img5{
+    position: absolute;
+}
+
+.container__informacion_1:hover .container_informacion_text,
+.container__informacion_3:hover .container_informacion_text,
+.container__informacion_4:hover .container_informacion_text,
+.container__informacion_5:hover .container_informacion_text{
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 60px;
+    padding-left: 80px;
+}
+
+.container__informacion_2:hover .container_informacion_text{
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 60px;
+    padding-left: 20px;
+}
+
+.container__informacion_1:hover p{
+    font-size: 30px;
+    padding: 10px;
+    color: rgb(33, 31, 63);
+    position: relative;
+    display: block;
+    transition: 300ms;
+}
+
+.container__informacion_2:hover p{
+    font-size: 30px;
+    padding: 10px;
+    color: rgb(33, 31, 63);
+    position: relative;
+    display: block;
+    transition: 300ms;
+}
+
+.container__informacion_3:hover p{
+    font-size: 30px;
+    padding: 10px;
+    color: rgb(33, 31, 63);
+    position: relative;
+    display: block;
+    transition: 300ms;
+}
+
+.container__informacion_4:hover p{
+    font-size: 30px;
+    padding: 10px;
+    color: rgb(33, 31, 63);
+    position: relative;
+    display: block;
+    transition: 300ms;
+}
+
+.container__informacion_5:hover p{
+    font-size: 30px;
+    padding: 10px;
+    color: rgb(33, 31, 63);
+    position: relative;
+    display: block;
+    transition: 300ms;
+}
+
+.container__informacion_1:hover img,
+.container__informacion_2:hover img,
+.container__informacion_3:hover img,
+.container__informacion_4:hover img,
+.container__informacion_5:hover img{
+    opacity: 0.2;
+    transition: 300ms;
+}
+
+.container__informacion_1:hover .boton{
+    background: #c5cf2f;
+    font-size: 15px;
+    color: rgb(33, 31, 63);
+    position: relative;
+    display: block;
+    padding: 10px 25px 10px 25px;
+    transition: 300ms;
+    justify-content: center;
+    border: none;
+    border-radius: 5px;
+}
+
+.container__informacion_2:hover .boton{
+    background: #c5cf2f;
+    font-size: 15px;
+    color: rgb(33, 31, 63);
+    position: relative;
+    display: block;
+    padding: 10px 10px 10px 10px;
+    transition: 300ms;
+    justify-content: center;
+    border: none;
+    border-radius: 5px;
+}
+
+.container__informacion_3:hover .boton{
+    width: 80px;
+    background: #c5cf2f;
+    font-size: 15px;
+    color: rgb(33, 31, 63);
+    position: relative;
+    display: block;
+    padding: 10px 25px 10px 25px;
+    transition: 300ms;
+    justify-content: center;
+    border: none;
+    border-radius: 5px;
+}
+
+.container__informacion_4:hover .boton{
+    background: #c5cf2f;
+    font-size: 15px;
+    color: rgb(33, 31, 63);
+    position: relative;
+    display: block;
+    padding: 10px 25px 10px 25px;
+    transition: 300ms;
+    justify-content: center;
+    border: none;
+    border-radius: 5px;
+}
+
+.container__informacion_5:hover .boton{
+    background: #c5cf2f;
+    font-size: 15px;
+    color: rgb(33, 31, 63);
+    position: relative;
+    display: block;
+    padding: 10px 25px 10px 25px;
+    transition: 300ms;
+    justify-content: center;
+    border: none;
+    border-radius: 5px;
+}
+
+
+
+
